@@ -4,6 +4,7 @@ termux-setup-storage
 apt update
 apt upgrade
 printf '\n\033[1;32m Tiến Hành Cài Python\n\n'
+pkg install git
 pkg install python
 pip install --upgrade pip
 pip install requests
